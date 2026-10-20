@@ -1,0 +1,15 @@
+export const TECHNICAL_EVIDENCE = [
+  ["MRUK room model", "Optional WebXR planes/mesh bounds, hit-test, manual surface, then virtual room", "Partial", "Browser labels only; no inferred complete scan or safety clearance. Physical room behavior: TO FILL."],
+  ["Scene surface alignment", "Metre-space surface bounds, bounded snap and smoothed updates", "Partial", "User confirms floor/table. Unknown/glass/clutter remain manual. No automatic moving of saved objects."],
+  ["Spatial anchors", "Relative-to-surface alignment saved with worlds; one-tap re-align", "Fallback only", "Persistent XR anchors remain diagnostic-only until physically verified; relative metadata is not a persistent handle."],
+  ["ISDK hand manipulation", "WebXR joints + HandleStore; right-hand primary, two-hand near assist", "Partial", "Tracking loss cancels interrupted edits. Head-pinch assist adds hysteresis; real precision/occlusion: TO FILL."],
+  ["Eye-gaze", "Primary-hand pinch and optional head-gaze button dwell", "Fallback only", "Never eye tracking. Dwell never records or consents automatically; reviewed Apply uses explicit arm/confirm. End-to-end dwell remains unverified."],
+  ["FoV-aware UI", "Central control board recalls when outside forward field", "Partial", "Seated height follows tracked head; comfort/system-zone tests: TO FILL."],
+  ["72 FPS / 60 minimum", "Production-scene rolling timing, draw/triangle counters, adaptive shadows and compressed furniture mesh LOD", "Partial", "Targets only. Frame intervals are not compositor/GPU timing. Sustained Quest FPS: TO FILL."],
+  ["Foveated rendering", "WebXR renderer foveation if exposed; no requested refresh change", "Partial", "Applied via renderer API; actual optical/performance effect needs device test."],
+  ["Asset compression", "Shared cached geometry, instanced teleport cells, local Draco/Meshopt/KTX2 decoder support", "Partial", "All 16 active furniture models have validated Meshopt/WebP full-detail and simplified LOD variants: full downloads 32.95 → 8.94 MB. Locked architecture is merged by finish; editable parts remain independent. KTX2 decoder available; these assets use WebP, not KTX2."],
+  ["Passthrough / depth / layers", "Optional AR entry and transparent production stage; confirmed table fit", "Partial", "Production AR composition exists; no depth occlusion claimed. Physical table registration/AR availability: TO FILL."],
+  ["Lifecycle resilience", "Optional discovery, denial fallback, session-bound cancellation, scene recovery", "Partial", "No automatic re-entry after sleep/end. Real Quest resume and permissions: TO FILL."],
+  ["Native MRUK / ISDK binaries", "No native SDK; browser-based equivalents above", "Not available", "Native-only functionality is not represented as parity."],
+] as const;
+export const QUEST_MEASUREMENTS = ["Quest OS / Browser version", "Average / minimum app FPS", "Frame time ms", "Draw calls / triangles", "Texture memory estimate", "Hand precision / tracking loss", "Anchor reload alignment", "Seated comfort / system-zone conflicts"];

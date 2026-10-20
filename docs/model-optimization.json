@@ -1,0 +1,458 @@
+[
+  {
+    "name": "dining_table",
+    "tier": "full",
+    "sourceBytes": 2282336,
+    "outputBytes": 478504,
+    "sourceTriangles": 1048,
+    "triangles": 1048,
+    "boundsDrift": 5.374681918800195e-05,
+    "extensions": [
+      "EXT_meshopt_compression",
+      "EXT_texture_webp",
+      "KHR_mesh_quantization"
+    ]
+  },
+  {
+    "name": "dining_table",
+    "tier": "lod",
+    "sourceBytes": 2282336,
+    "outputBytes": 134588,
+    "sourceTriangles": 1048,
+    "triangles": 738,
+    "boundsDrift": 5.374681918800195e-05,
+    "extensions": [
+      "EXT_meshopt_compression",
+      "EXT_texture_webp",
+      "KHR_mesh_quantization"
+    ]
+  },
+  {
+    "name": "dining-chair-lite",
+    "tier": "full",
+    "sourceBytes": 432584,
+    "outputBytes": 217924,
+    "sourceTriangles": 1760,
+    "triangles": 1760,
+    "boundsDrift": 5.057631750372517e-05,
+    "extensions": [
+      "EXT_meshopt_compression",
+      "EXT_texture_webp",
+      "KHR_mesh_quantization"
+    ]
+  },
+  {
+    "name": "dining-chair-lite",
+    "tier": "lod",
+    "sourceBytes": 432584,
+    "outputBytes": 91648,
+    "sourceTriangles": 1760,
+    "triangles": 1574,
+    "boundsDrift": 0.0008723295305242967,
+    "extensions": [
+      "EXT_meshopt_compression",
+      "EXT_texture_webp",
+      "KHR_mesh_quantization"
+    ]
+  },
+  {
+    "name": "desk-correct",
+    "tier": "full",
+    "sourceBytes": 420656,
+    "outputBytes": 170920,
+    "sourceTriangles": 4162,
+    "triangles": 4162,
+    "boundsDrift": 3.3203421602962584e-05,
+    "extensions": [
+      "EXT_meshopt_compression",
+      "EXT_texture_webp",
+      "KHR_mesh_quantization"
+    ]
+  },
+  {
+    "name": "desk-correct",
+    "tier": "lod",
+    "sourceBytes": 420656,
+    "outputBytes": 74168,
+    "sourceTriangles": 4162,
+    "triangles": 1688,
+    "boundsDrift": 3.3203421602962584e-05,
+    "extensions": [
+      "EXT_meshopt_compression",
+      "EXT_texture_webp",
+      "KHR_mesh_quantization"
+    ]
+  },
+  {
+    "name": "sofa-real",
+    "tier": "full",
+    "sourceBytes": 2217800,
+    "outputBytes": 261124,
+    "sourceTriangles": 4101,
+    "triangles": 4101,
+    "boundsDrift": 5.110821631229719e-05,
+    "extensions": [
+      "EXT_meshopt_compression",
+      "EXT_texture_webp",
+      "KHR_mesh_quantization"
+    ]
+  },
+  {
+    "name": "sofa-real",
+    "tier": "lod",
+    "sourceBytes": 2217800,
+    "outputBytes": 101480,
+    "sourceTriangles": 4101,
+    "triangles": 2203,
+    "boundsDrift": 0.0014099648367971352,
+    "extensions": [
+      "EXT_meshopt_compression",
+      "EXT_texture_webp",
+      "KHR_mesh_quantization"
+    ]
+  },
+  {
+    "name": "plant-correct-vr",
+    "tier": "full",
+    "sourceBytes": 1364196,
+    "outputBytes": 821892,
+    "sourceTriangles": 9882,
+    "triangles": 9882,
+    "boundsDrift": 2.75488634842189e-05,
+    "extensions": [
+      "EXT_meshopt_compression",
+      "EXT_texture_webp",
+      "KHR_mesh_quantization"
+    ]
+  },
+  {
+    "name": "plant-correct-vr",
+    "tier": "lod",
+    "sourceBytes": 1364196,
+    "outputBytes": 361224,
+    "sourceTriangles": 9882,
+    "triangles": 7638,
+    "boundsDrift": 2.75488634842189e-05,
+    "extensions": [
+      "EXT_meshopt_compression",
+      "EXT_texture_webp",
+      "KHR_mesh_quantization"
+    ]
+  },
+  {
+    "name": "shelf-correct",
+    "tier": "full",
+    "sourceBytes": 604500,
+    "outputBytes": 415620,
+    "sourceTriangles": 182,
+    "triangles": 182,
+    "boundsDrift": 3.8524647793579004e-05,
+    "extensions": [
+      "EXT_meshopt_compression",
+      "EXT_texture_webp",
+      "KHR_mesh_quantization"
+    ]
+  },
+  {
+    "name": "shelf-correct",
+    "tier": "lod",
+    "sourceBytes": 604500,
+    "outputBytes": 109312,
+    "sourceTriangles": 182,
+    "triangles": 182,
+    "boundsDrift": 3.8524647793579004e-05,
+    "extensions": [
+      "EXT_meshopt_compression",
+      "EXT_texture_webp",
+      "KHR_mesh_quantization"
+    ]
+  },
+  {
+    "name": "bench",
+    "tier": "full",
+    "sourceBytes": 10756,
+    "outputBytes": 5596,
+    "sourceTriangles": 170,
+    "triangles": 170,
+    "boundsDrift": 5.721348550532368e-05,
+    "extensions": [
+      "EXT_meshopt_compression",
+      "KHR_materials_unlit",
+      "KHR_mesh_quantization"
+    ]
+  },
+  {
+    "name": "bench",
+    "tier": "lod",
+    "sourceBytes": 10756,
+    "outputBytes": 5596,
+    "sourceTriangles": 170,
+    "triangles": 170,
+    "boundsDrift": 5.721348550532368e-05,
+    "extensions": [
+      "EXT_meshopt_compression",
+      "KHR_materials_unlit",
+      "KHR_mesh_quantization"
+    ]
+  },
+  {
+    "name": "street-light",
+    "tier": "full",
+    "sourceBytes": 2471576,
+    "outputBytes": 471328,
+    "sourceTriangles": 30610,
+    "triangles": 30610,
+    "boundsDrift": 0.00010848167142992295,
+    "extensions": [
+      "EXT_meshopt_compression",
+      "EXT_texture_webp",
+      "KHR_mesh_quantization"
+    ]
+  },
+  {
+    "name": "street-light",
+    "tier": "lod",
+    "sourceBytes": 2471576,
+    "outputBytes": 156928,
+    "sourceTriangles": 30610,
+    "triangles": 9338,
+    "boundsDrift": 0.0007727965508260537,
+    "extensions": [
+      "EXT_meshopt_compression",
+      "EXT_texture_webp",
+      "KHR_mesh_quantization"
+    ]
+  },
+  {
+    "name": "tree-vr-lite",
+    "tier": "full",
+    "sourceBytes": 5986816,
+    "outputBytes": 1934384,
+    "sourceTriangles": 23440,
+    "triangles": 23440,
+    "boundsDrift": 3.1376481847103076e-05,
+    "extensions": [
+      "EXT_meshopt_compression",
+      "EXT_texture_webp",
+      "KHR_materials_ior",
+      "KHR_materials_specular",
+      "KHR_mesh_quantization"
+    ]
+  },
+  {
+    "name": "tree-vr-lite",
+    "tier": "lod",
+    "sourceBytes": 5986816,
+    "outputBytes": 1285636,
+    "sourceTriangles": 23440,
+    "triangles": 21130,
+    "boundsDrift": 3.1376481847103076e-05,
+    "extensions": [
+      "EXT_meshopt_compression",
+      "EXT_texture_webp",
+      "KHR_materials_ior",
+      "KHR_materials_specular",
+      "KHR_mesh_quantization"
+    ]
+  },
+  {
+    "name": "parked-car",
+    "tier": "full",
+    "sourceBytes": 2345388,
+    "outputBytes": 438596,
+    "sourceTriangles": 12592,
+    "triangles": 12592,
+    "boundsDrift": 8.413541767924394e-05,
+    "extensions": [
+      "EXT_meshopt_compression",
+      "EXT_texture_webp",
+      "KHR_materials_ior",
+      "KHR_materials_specular",
+      "KHR_mesh_quantization"
+    ]
+  },
+  {
+    "name": "parked-car",
+    "tier": "lod",
+    "sourceBytes": 2345388,
+    "outputBytes": 226948,
+    "sourceTriangles": 12592,
+    "triangles": 9468,
+    "boundsDrift": 0.0003616803835964309,
+    "extensions": [
+      "EXT_meshopt_compression",
+      "EXT_texture_webp",
+      "KHR_materials_ior",
+      "KHR_materials_specular",
+      "KHR_mesh_quantization"
+    ]
+  },
+  {
+    "name": "coffee-station",
+    "tier": "full",
+    "sourceBytes": 1833040,
+    "outputBytes": 805812,
+    "sourceTriangles": 27659,
+    "triangles": 27659,
+    "boundsDrift": 2.142223171993577e-05,
+    "extensions": [
+      "EXT_meshopt_compression",
+      "EXT_texture_webp",
+      "KHR_mesh_quantization"
+    ]
+  },
+  {
+    "name": "coffee-station",
+    "tier": "lod",
+    "sourceBytes": 1833040,
+    "outputBytes": 354320,
+    "sourceTriangles": 27659,
+    "triangles": 11581,
+    "boundsDrift": 0.00022789947708234004,
+    "extensions": [
+      "EXT_meshopt_compression",
+      "EXT_texture_webp",
+      "KHR_mesh_quantization"
+    ]
+  },
+  {
+    "name": "bar-stool",
+    "tier": "full",
+    "sourceBytes": 2811300,
+    "outputBytes": 734660,
+    "sourceTriangles": 14373,
+    "triangles": 14373,
+    "boundsDrift": 2.168766586352281e-05,
+    "extensions": [
+      "EXT_meshopt_compression",
+      "EXT_texture_webp",
+      "KHR_mesh_quantization"
+    ]
+  },
+  {
+    "name": "bar-stool",
+    "tier": "lod",
+    "sourceBytes": 2811300,
+    "outputBytes": 515168,
+    "sourceTriangles": 14373,
+    "triangles": 14373,
+    "boundsDrift": 2.168766586352281e-05,
+    "extensions": [
+      "EXT_meshopt_compression",
+      "EXT_texture_webp",
+      "KHR_mesh_quantization"
+    ]
+  },
+  {
+    "name": "bed",
+    "tier": "full",
+    "sourceBytes": 2424744,
+    "outputBytes": 577884,
+    "sourceTriangles": 2715,
+    "triangles": 2715,
+    "boundsDrift": 7.28967726592616e-05,
+    "extensions": [
+      "EXT_meshopt_compression",
+      "EXT_texture_webp",
+      "KHR_mesh_quantization"
+    ]
+  },
+  {
+    "name": "bed",
+    "tier": "lod",
+    "sourceBytes": 2424744,
+    "outputBytes": 178484,
+    "sourceTriangles": 2715,
+    "triangles": 1651,
+    "boundsDrift": 0.00492112446986661,
+    "extensions": [
+      "EXT_meshopt_compression",
+      "EXT_texture_webp",
+      "KHR_mesh_quantization"
+    ]
+  },
+  {
+    "name": "cabinet",
+    "tier": "full",
+    "sourceBytes": 2850304,
+    "outputBytes": 592696,
+    "sourceTriangles": 24976,
+    "triangles": 24976,
+    "boundsDrift": 6.228551078458291e-05,
+    "extensions": [
+      "EXT_meshopt_compression",
+      "EXT_texture_webp",
+      "KHR_mesh_quantization"
+    ]
+  },
+  {
+    "name": "cabinet",
+    "tier": "lod",
+    "sourceBytes": 2850304,
+    "outputBytes": 299040,
+    "sourceTriangles": 24976,
+    "triangles": 12008,
+    "boundsDrift": 6.221221726868604e-05,
+    "extensions": [
+      "EXT_meshopt_compression",
+      "EXT_texture_webp",
+      "KHR_mesh_quantization"
+    ]
+  },
+  {
+    "name": "bookshelf",
+    "tier": "full",
+    "sourceBytes": 2776140,
+    "outputBytes": 740520,
+    "sourceTriangles": 10106,
+    "triangles": 10106,
+    "boundsDrift": 0.0001112289104974755,
+    "extensions": [
+      "EXT_meshopt_compression",
+      "EXT_texture_webp",
+      "KHR_mesh_quantization"
+    ]
+  },
+  {
+    "name": "bookshelf",
+    "tier": "lod",
+    "sourceBytes": 2776140,
+    "outputBytes": 195796,
+    "sourceTriangles": 10106,
+    "triangles": 3030,
+    "boundsDrift": 0.0001112289104974755,
+    "extensions": [
+      "EXT_meshopt_compression",
+      "EXT_texture_webp",
+      "KHR_mesh_quantization"
+    ]
+  },
+  {
+    "name": "microwave",
+    "tier": "full",
+    "sourceBytes": 2120288,
+    "outputBytes": 275836,
+    "sourceTriangles": 8120,
+    "triangles": 8120,
+    "boundsDrift": 5.9494396493538424e-05,
+    "extensions": [
+      "EXT_meshopt_compression",
+      "EXT_texture_webp",
+      "KHR_mesh_quantization"
+    ]
+  },
+  {
+    "name": "microwave",
+    "tier": "lod",
+    "sourceBytes": 2120288,
+    "outputBytes": 97592,
+    "sourceTriangles": 8120,
+    "triangles": 2460,
+    "boundsDrift": 0.0013606171772839216,
+    "extensions": [
+      "EXT_meshopt_compression",
+      "EXT_texture_webp",
+      "KHR_mesh_quantization"
+    ]
+  }
+]

@@ -1,0 +1,148 @@
+# Roadmap
+- [x] VR grab: aimed drags slide furniture on the floor (no floating/sinking), release always lands, right stick or Q/E turn 90°; IWER controller + emulator mouse verified
+- [x] VR walking climbs stairs and stands on upper floors; duplex has a real stairwell; IWER walked up to 2.81 m and back down
+- [x] VR board: Undo/Redo, Turn 90° left/right, Delete and floating keyboard to type AI commands; released furniture rests on floor/table (no floating/sinking); ceiling no longer reported as "touching"; IWER simulated flow passed
+- [x] Studio stops spinning/shaking when touching parts: drag slides the part, view stays still; removed desktop right-edge gap
+- [x] VR: far grab with controller aim + trigger verified in IWER; emulator mouse click/drag, right-drag/arrow look up/down, WASD walk verified
+- [x] VR: board Menu opens by emulator mouse click; controller-ray board presses already verified in IWER
+- [ ] VR: real Quest hand pinch grab/move exists and passes simulation; physical hand feel needs owner's Quest test
+- [x] Default IWSDK hands enabled, anchor opt-in/native fallback preserved; actual default SDK module loading, simulated controller/hand move, denial/entry/exit/re-entry and undo/reload passed; 158 tests/build OK. Physical Quest unverified; not deployed.
+- [x] October 19 incremental competition upgrade: official rubric/hosting researched; entry rollback, stale SDK joints, portable tabletop state and streamed VR review fixed; 157 tests/build OK, native/SDK emulator and live AI/export/reload passed; evidence in docs/competition-upgrade-2026-10-19.md; not deployed.
+- [x] Marked VR button investigated: owner's browser reports VR/AR unsupported; icon now gives contextual feedback. Supported gesture entry/denial/re-entry tested in IWER, not hardware.
+- [ ] Fresh owner Cloud save/history UI verification — blocked until owner signs in; verified requesting identity had no matching app auth account.
+- [ ] Confirm complete official submission artifacts/entrant eligibility and compliant GitHub Pages/Vercel hosting — needs entrant details and deployment approval; no compliance certification.
+- [x] Full premium redesign (rejected silver/vermilion reskin): obsidian/ivory/champagne theme, new home structure (cinematic hero, spec strip, brief console, studio window, real-scale split, process, Quest band, wordmark footer); 320/390/1440 fit, create flow and 151 tests passed.
+- [x] Redesign public pages and studio as an architectural workbench; Chromium/WebKit layouts and retained drafts passed, 146 tests passed; scene/AI/Cloud/XR logic unchanged.
+- [x] Own-build VITE_XR_INPUT=iwsdk lazily samples hands through Meta adapter; native explicit session table anchors with safe lifecycle tests; simulated hand session/pinch/exit/re-entry passed. Not a full core engine migration; hardware anchors/hands remain unverified.
+- [x] Full project verification at 440×727 in Chromium/WebKit: named project, real AI, Apply, Undo removes desk, Redo restores exact snapshot, reload preserves desk/title; fixed repeating blank search reset and rejected optional audio resume; 141 tests passed
+- [x] Test-only IWER verifies unsupported fallback, denied permission, explicit gesture entry, tracked 0.5m head movement, native session end/cleanup and re-entry; no runtime errors
+- [ ] Complete physical Quest verification: hands/menu/dwell, AR alignment, teleport comfort and sustained FPS require owner's actual headset report; simulated lifecycle is not full device certification
+- [x] Add discoverable My projects, History and named New Project; Safari preserved and reopened desk after reload
+- [ ] Retest private Cloud revision history (requires owner sign-in in preview; managed self-session unavailable)
+- [x] Check cold loading and reduce AI output: live home load event 1.79s with no 3D downloads; small edit 3.4s; scene canvas 4.6s; not headset measurements
+- [x] Verify command → review → Apply and Stop/error recovery; full duplex 155 operations in 146s, actual streamed drafting counts; explicit retry prevents duplicate billing; large designs remain slow
+- [x] Collapsible glass sidebar with adjacent Undo/Redo/VR/Help; Chromium and Safari fit at 320/390/768/1280; 140 tests passed
+- [x] Replace persistent rail with one top menu; same-page bottom AI popup retains project drafts, commands and review during session; real desk review/apply passed, canvas stayed mounted, 320/440/768/1280 fit passed, 125 tests passed
+- [x] Free model view with on-demand tool rail and retained command/review panels; browser fit checked at 320/440/768/1280, viewport stays mounted
+- [x] Show AI progress separately from preserved instructions; immediate acknowledgement measured at 0.8 s, desk review at 3.5 s and detailed office at 21.4 s; no unsupported model-speed claim
+- [x] Investigate reported AI-not-creating path: live 1,989-character new layout returned 16 reviewed operations, Apply produced both named desks and rendered office; 123 tests passed, no browser page errors
+- [x] Remove fixed starting-floor restrictions and proposal truncation; live 12 x 15 m duplex returned 30 reviewed operations and applied on 440 x 727 with no page errors; locked-part regressions retained
+- [x] Fix detailed prompt rejection/truncation, expand input to multiple lines, preserve descriptions in Cloud validation; live 2,611-character review/apply verified, Chromium 320/390/768/1280 and WebKit 390 fit checks passed
+- [x] Replace the marked home placeholder with a 52 KB real editor capture; verify image rendering and fit at 320, 440 and 1280px
+- [x] Remove the rejected Judge Mode home button and public promotion; preserve normal design entry
+- [x] Competition phases 0–3: audit, trust cleanup, optional diagnostics and bounded spatial context
+- [ ] Competition phases 4–6: seated/AR/room-aware AI implemented; new headset menu/dwell end-to-end verification blocked by failed emulated targeting
+- [x] Competition phases 7–10 additions: Judge entry, safe share/compare, accessibility settings and portable tabletop metadata; hardware reliability remains unverified
+- [x] Competition phase 11: Devpost, real-footage script, checklist and provisional phase scores in docs/competition-delivery.md
+- [ ] Final competition freeze: waits for Quest reports, new menu/dwell confirmation, real footage and operator legal/contact details
+- [x] Finish requested software parity: 32 validated compressed full/LOD assets, static draw-call batching, spatial stability safeguards and current diagnostics/report wording
+- [x] Build Steps 2–3: shared safe spatial provider, partial room/surface discovery, relative alignment and tracking recovery
+- [x] Build Step 4: stable right-hand/head-gaze assistance and central controls; preserve HandleStore
+- [x] Build Steps 5 and 7: measured performance HUD/export, adaptive shadows/mesh LOD, static batching and resilient XR lifecycle/errors
+- [x] Complete Step 6: honest technical table and Markdown report with unmeasured Quest numbers marked TO FILL
+- [x] Verify 97 tests, real Cloud Save/Open alignment, all 32 optimized assets and editor/emulated headset flows; physical checks stay blocked on headset
+- [ ] Confirm physical room bounds, persistent XR anchors, hand comfort and sustained 72/60 FPS (requires Quest report)
+- [x] Validate all 16 active furniture re-encodings and mesh LODs, metre UV static batching, real downloads and preserved hand transforms
+- [x] Remove unwanted Judge Mode controls, tutorial and state; retain ordinary creation and saves
+- [x] Complete Step 1 only: safe live capability probe, readable + JSON report, explicit failures
+- [x] Verify browser/emulator probe and 76 tests; stop for real Quest report, no Steps 2–7 implementation
+- [x] Audit competition readiness and document hardware-only gaps in docs/competition-readiness-2026-10-18.md
+- [x] Add capability diagnostics and honest technical report; simulated live joints/counters and denied hit-test surfaced without page errors
+- [x] Add guarded generated offline PWA, /vr entry and Quest QR; no preview worker registration
+- [x] Add privacy/terms and explicit one-time microphone consent before requesting recording
+- [x] Add local recovery and authenticated Cloud autosave; browser verified offline edits/reload, Cloud readback and immutable history
+- [x] Remove rejected Judge Mode; normal studio entry and Cloud/local Save remain
+- [x] Verify 70 regression tests, mobile/desktop pages, consent, recovery and clean build
+- [ ] Verify installed offline shell after publication (requires owner publication; preview intentionally does not register workers)
+- [ ] Collect real Quest diagnostics to validate spatial-provider and decide persistent-world implementation (requires physical device report)
+- [ ] Finalize operator contact and legal review for privacy/terms (requires owner details)
+- [x] Stream AI creation to avoid buffered waiting; verified a two-story house proposal and application with 33 editable parts on phone layout
+- [x] Run a fresh automated and browser experience audit, including live AI, voice, private saves and simulated VR
+- [x] Fix reproduced experience failures and retain regression tests; 59 tests passed
+- [x] Record current results and hardware-only blockers in the dated experience audit
+- [x] Prioritize loading recovery, first-change, reviewed animation/style and hand-only interaction failures
+- [ ] Verify Firefox 3D on a WebGL-capable device (sandbox Firefox has no usable WebGL context)
+- [x] Remove external font blocking, reduce repeated studio work and verify phone creation and 3D rendering
+- [x] Stabilize model/texture failures and retry without losing scene state
+- [x] Open a furnished lounge for direct studio arrivals and add a short actionable first-change invitation
+- [x] Strengthen reviewed style palettes and animate colours/lighting as well as transforms
+- [x] Add public curated worlds with real rendered previews, editable copies and headset walkthrough links
+- [x] Add checked CC0 beds, cabinets, bookshelves and kitchen appliances to desktop/VR/AI catalogs
+- [x] Recheck live voice in Quest emulator, loading recovery, mobile fit and interaction tests
+- [x] Request publication after available security checks; deployment completion is not yet confirmed
+- [x] Verify in-headset start/finish voice controls, audio-thread WAV capture, live “Make it cozy” transcription and reviewed changes in hand-only simulation; 50 tests passed
+- [x] Add live reviewed room-wide Style Transform controls on screen and in VR, including lighting/material/layout intent
+- [x] Add hover/select/grab feedback, head-gaze + right-pinch option, seated board recall and smooth reviewed transitions
+- [x] Add an explicit Design Lounge starting space without overriding descriptions or blank scenes
+- [x] Verify live style proposals, hand-only seated emulator editing, Cloud Save/Open and exit
+- [x] Remove left-hand teleport gesture to avoid palm-up system-menu conflict; controller teleport remains optional
+- [x] Isolate explicit head-gaze mode from competing right-hand near pointers; final gaze pinch/save/exit regression passed
+- [x] Add opt-in device-spoken AI review summaries and mute; browser dispatch verified, physical headset audio unverified
+- [x] Fix mobile screen overflow, focus zoom and shifting editor controls; verify phone, tablet and desktop editing
+- [x] Keep editor controls and scene data available when the 3D renderer cannot load; verify browser fallback
+- [x] Replace text-to-template creation with live AI proposals; verify gallery creation, three explicitly sized tables, review/apply and Cloud Save; 43 tests passed
+- [x] Retest emulated immersive tracking, hand/controller movement, yaw/scale, teleport, catalog, headset Save and reload/Open; physical Quest remains blocked on hardware
+- [x] Audit native VR sessions, input, synchronization and affordable rendering; fix confirmed reliability problems
+- [x] Run 39 automated checks; emulator entry/rejection, walking, teleport, hand/controller move, two-controller yaw/scale, catalog placement, headset Save and reload/Open; verify live preview/published AI
+- [x] Document official Meta guidance and reproducible emulator/physical Quest acceptance tests
+- [ ] Verify this audit on a physical Quest and measure sustained headset frame rates (requires a physical headset)
+- [x] Reduce welcome-page downloads with responsive WebP photos and data-only starters; defer 3D viewport code and verify described/blank creation on desktop plus mobile loading
+- [x] Add persistent object finishes, realistic default dimensions, and photo-aware material choices
+- [x] Verify the user's café photo through reviewed room creation, measured furniture/material editing, Cloud Save/Open, and simulated life-size walking, teleport and exit
+- [ ] Add suitable realistic indoor lights, appliances, curtains and signage for full café-reference detail (requires additional suitable licensed source models)
+- [x] Add private room-photo drag/drop, saved reference preview and reviewed AI layout proposals; verify upload-to-apply flow with the user's coffee-shop reference
+
+- [x] Remove automatic coffee-shop creation; let users enter their own world or start blank
+
+- [x] Expand reference-inspired cafe detail, real outdoor assets, architectural facades and in-headset object catalog
+- [x] Verify tracked hands, pinch movement, catalog placement, walking, teleport relocation and exit in browser simulation
+- [ ] Match reference-level complete city, house and outdoor-venue realism (requires additional suitable licensed 3D source models; photos are not editable geometry)
+- [ ] Confirm physical Quest hand tracking and realism comfort (requires the user's headset)
+
+- [x] Remove unnecessary decorative arrows from public buttons and links
+- [x] Shift the marked welcome composer and actions slightly left without screen overflow
+- [x] Replace dining furniture, plants, shelves and desks; add PBR floor/wall/counter surfaces and window frames
+- [x] Verify welcome alignment on three sizes and rendered, selectable cafe assets
+- [x] Build detailed 12-seat restaurant; verify life-size entry, tracked walking, chair movement and exit in simulation; fix service-desk overlap
+- [x] Confirm teleport relocation in browser simulation
+- [ ] Confirm physical Quest walkthrough (requires the user's headset)
+
+- [x] Fix SEO metadata defaults and verify unique page metadata and self-referencing addresses
+- [x] Install and verify a router-derived sitemap and robots reference
+- [x] Add approved 3D room planner page, linked from Templates with working workspace action
+
+- [x] Fit the marked welcome composer within the screen
+- [x] Cloud account sign-in, private Save/Open and revision history across devices
+- [x] Implement direct-hand/two-pointer manipulation and in-headset creation/save; controller move verified in simulation
+- [x] Improve textured sofas, tables and chairs; remaining simplified assets documented honestly
+- [x] Verify cloud round-trip, revision restore, layout sizing and 18 automated tests
+- [x] Build restaurant and verify Enter VR, walking, teleport and exit in simulation; improve control-board reach
+- [ ] Verify physical Quest two-hand manipulation, in-headset creation and save (needs the user's headset)
+
+- [x] End-to-end life-size VR layout, safe floor teleport, tracked walking, and session recovery
+- [x] Validate locomotion rules and browser headset simulation
+- [x] Add a male VR designer beside the female designer and polish the welcome page
+- [x] Remove Quest simulation; use real WebXR support detection only
+- [x] Verify live typed AI layout creation and recorded-speech transcription
+- [ ] Verify physical Quest microphone capture and voice-to-applied-edit flow (needs the user's headset)
+- [x] Request publication after available security checks (deployment completion not yet confirmed)
+
+- [x] Voice edits in VR → AI proposed changes with review
+- [x] Measurement guides, floor-grid snapping, collision warnings
+- [x] Landing page, templates page, getting-started guide
+- [x] First-time onboarding (3 steps, skip, reopen via Help)
+- [x] Workspace layout: top bar, scene list, properties, bottom composer
+- [x] Starter prompts populate composer; honest loading/error/retry states
+- [ ] Test VR (incl. new headset scene) + voice on a physical Meta Quest (needs the user's headset)
+- [x] Remove the element in user's screenshot; professional replacement
+- [x] Hide Lovable badge
+- [x] Faster loading; fits all devices and VR browsers
+
+- [x] Audit-fix batch: public pages already free of developer-status notes; detailed 90-part duplex with 2.7 m storeys/staircase, floor selector + cutaway, distinct showcase VR/edit buttons, duplex + office showcase worlds, one-tap VR entry link
+- [ ] Step-inside first-person polish: explicit "Step inside" naming, point-and-pinch teleport, stair snap zone / floor change in life-size mode, AR life-size placement in real room (fold into phases 4-6 verification)
+- [x] Customize panel: easy-to-find colour + all necessary per-part options (name, lock, hide, finish, colour, size)
+- [x] VR: direct grab/move of all unlocked parts (verify HandleStore covers every part kind)
+- [x] Hide VR diagnostics page from public menus (keep URL for testing)
+- [x] VR works with hands/controllers only, no mouse: thumbstick walking with wall checks, snap turn, clear in-headset control guide
+- [x] VR control board hidden by default; opens only on demand (button/gesture)
+- [x] VR feel: smooth head-relative walking + smooth/step turning, working Menu/B/Y, ray drag + grip grab, controller vibration
